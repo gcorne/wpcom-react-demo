@@ -1,0 +1,12 @@
+.gravatar__wrapper {
+	padding: 2px;
+	box-sizing: border-box;
+
+	&.is-selected {
+		padding: 0;
+	}
+}
+
+.is-selected .gravatar__image {
+	border: 2px solid #ccc;
+}

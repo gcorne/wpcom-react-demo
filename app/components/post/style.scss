@@ -1,0 +1,19 @@
+.post__date {
+	color: #999;
+	font-size: 12px;
+}
+
+.post__title {
+	font-weight: normal;
+	margin: 0 0 0.6em 0;
+}
+
+.post__title-link,
+.post__title-link:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.post__title-link:hover {
+	text-decoration: underline;
+}
