@@ -5,20 +5,20 @@ body {
 	font-family: $sans;
 }
 
-.wrapper {
+.app__wrapper {
 	width: 600px;
 	margin: 20px auto;
 	position: relative
 }
 
-.gravatars {
+.app__wrapper .bloggers {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 
-.posts {
+.app__wrapper .content {
 	position: absolute;
 	top: 0px;
-	left: 110px;
+	left: 140px;
 }

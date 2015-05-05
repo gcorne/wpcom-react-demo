@@ -2,7 +2,7 @@ var React = require( 'react' ),
 	wpcom = require( 'wpcom' )(),
 	Post = require( '../post' );
 
-var Posts = React.createClass( {
+var PostList = React.createClass( {
 
 	propTypes: {
 		site: React.PropTypes.string.isRequired
@@ -58,4 +58,4 @@ var Posts = React.createClass( {
 
 } );
 
-module.exports = Posts;
+module.exports = PostList;
