@@ -1,5 +1,5 @@
-WordPress.com Friends
-=====================
+WP.com + React Demo
+==================
 
 Simple React.js application demo using React.js and wpcom.js
 
