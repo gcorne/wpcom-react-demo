@@ -1,6 +1,8 @@
 var React = require( 'react' ),
 	moment = require( 'moment' );
 
+require( './style.scss' );
+
 var Post = React.createClass( {
 
 	render: function() {

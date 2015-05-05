@@ -2,6 +2,8 @@ var React = require( 'react' ),
 	jsonp = require( 'jsonp' ),
 	classnames = require( 'classnames' );
 
+require( './style.scss' );
+
 var Gravatar = React.createClass( {
 
 	propTypes: {

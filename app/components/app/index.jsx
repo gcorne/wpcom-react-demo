@@ -3,6 +3,8 @@ var React = require( 'react' ),
 	Gravatar = require( '../gravatar' ),
 	Posts = require( '../posts' );
 
+require( './style.scss' );
+
 var App = React.createClass( {
 
 	getInitialState: function() {
