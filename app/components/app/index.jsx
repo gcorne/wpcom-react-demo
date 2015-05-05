@@ -33,11 +33,15 @@ var App = React.createClass( {
 
 		return (
 			<div className="app__wrapper">
-				<Bloggers />
+				<Bloggers
+					bloggers={ this.props.bloggers }
+					onSelect={ this.onSelect }
+					selected={ this.state.selected }
+				/>
 				{ site ?
 					<Content>
 						<Site site={ site } />
-						<Posts site={ site } />
+						<PostList site={ site } />
 					</Content>
 				: null }
 			</div>

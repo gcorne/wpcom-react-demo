@@ -10,8 +10,8 @@ var Bloggers = React.createClass( {
 						<Gravatar
 							key={ blogger.username }
 							username={ blogger.username }
-							onSelect={ this.onSelect }
-							selected={ blogger.username === this.state.selected }
+							onSelect={ this.props.onSelect }
+							selected={ blogger.username === this.props.selected }
 							size={ 100 }
 						/>
 					);
