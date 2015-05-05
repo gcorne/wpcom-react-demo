@@ -13,4 +13,7 @@ build: install
 watch: install
 	@$(WEBPACK) --watch
 
-.PHONY: install build watch
+clean:
+	@rm build* style*
+
+.PHONY: install build watch clean
