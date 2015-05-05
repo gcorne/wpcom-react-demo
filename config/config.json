@@ -5,25 +5,24 @@
 			"site": "matt.wordpress.com"
 		},
 		{
-			"username": "gcorne",
-			"site": "bitswapping.com"
-		},
-		{
 			"username": "nbachiyski",
 			"site": "extrapolate.me"
-		},
-		{
-			"username": "stephyiu",
-			"site": "hoppycow.com"
 		},
 		{
 			"username": "mdawaffe",
 			"site": "mdawaffe.wordpress.com"
 		},
 		{
+			"username": "stephyiu",
+			"site": "hoppycow.com"
+		},
+		{
 			"username": "ethitter",
 			"site": "ethitter.com"
+		},
+		{
+			"username": "gcorne",
+			"site": "bitswapping.com"
 		}
-
 	]
 }
