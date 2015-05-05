@@ -32,7 +32,7 @@ var App = React.createClass( {
 		var site = this.getSite();
 
 		return (
-			<div className="app__wrapper">
+			<div className="app">
 				<Bloggers
 					bloggers={ this.props.bloggers }
 					onSelect={ this.onSelect }

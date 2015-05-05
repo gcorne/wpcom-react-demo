@@ -42,7 +42,7 @@ var Gravatar = React.createClass( {
 		var size = this.props.size,
 			avatarURL = this.state.avatarURL,
 			className = classnames( {
-				'gravatar__wrapper': true,
+				'gravatar': true,
 				'is-selected': this.props.selected
 			} );
 

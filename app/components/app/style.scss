@@ -5,19 +5,19 @@ body {
 	font-family: $sans;
 }
 
-.app__wrapper {
+.app {
 	width: 600px;
 	margin: 20px auto;
 	position: relative
 }
 
-.app__wrapper .bloggers {
+.app .bloggers {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 
-.app__wrapper .content {
+.app .content {
 	position: absolute;
 	top: 0px;
 	left: 140px;
